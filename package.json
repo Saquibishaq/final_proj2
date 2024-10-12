@@ -1,0 +1,17 @@
+{
+    "name": "video-generation-backend",
+    "version": "1.0.0",
+    "description": "Node backend to generate videos from text prompts.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "axios": "^1.3.2",
+      "express": "^4.18.2",
+      "fluent-ffmpeg": "^2.1.2",
+      "google-tts-api": "^2.0.3",
+      "node-fetch": "^2.6.7"
+    }
+  }
+  
